@@ -1,0 +1,27 @@
+http://localhost:8098/api/RoverPosition/getLandingPosition?gridX=5&gridY=5
+
+[{
+
+    "id": 1,
+    "startPositionX":1,
+    "startPositionY": 2,
+    "facingDirection":"N",
+    "landingSteps":["L","M","L","M","L","M","L","M","M"]
+},
+{
+
+    "id": 2,
+    "startPositionX":3,
+    "startPositionY": 3,
+    "facingDirection":"E",
+    "landingSteps":["M","M","R","M","M","R","M","R","R","M"]
+},
+{
+
+    "id": 3,
+    "startPositionX":5,
+    "startPositionY": 5,
+    "facingDirection":"E",
+    "landingSteps":["M","M","R","M","M","R","M","R","R","M","M","M","M"]
+}
+]
